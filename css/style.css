@@ -1,0 +1,90 @@
+@charset "UTF-8";
+#navegacao {
+  flex-flow: column;
+  background-color: #1B265A;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+#navegacao a {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media only screen and (min-width: 920px) {
+  #serv1, #serv2, #serv3, #sobre1 {
+    display: block;
+  }
+}
+@media only screen and (max-width: 919px) {
+  #serv1, #serv2, #serv3, #sobre1 {
+    display: contents;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 919px) {
+  #sobre2 {
+    display: contents;
+    justify-content: center;
+  }
+  img {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 920px) {
+  #serv1, #serv2, #serv3, #sobre1 {
+    display: block;
+  }
+}
+@media only screen and (max-width: 919px) {
+  #capa1 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 920px) {
+  #capa2 {
+    display: none;
+  }
+}
+#serviços {
+  text-align: center;
+  border-top: 3px solid #ff3c00;
+  max-width: 100%;
+  margin-top: 35px;
+}
+
+#serviços1 {
+  background-color: #ff3c00;
+  padding-top: 15px;
+}
+
+#titulos {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+#col {
+  margin-top: 15px;
+}
+
+#sobre {
+  border: 10px solid #1B265A;
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ff3c00;
+  font-family: "Times New Roman", Times, serif;
+}
+#sobre p {
+  background-color: white;
+  font-size: large;
+}
+
+#formulario {
+  border: 10px solid #1B265A;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

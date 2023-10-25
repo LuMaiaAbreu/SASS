@@ -1,0 +1,54 @@
+#serviços{
+
+    text-align: center;
+    border-top: 3px solid $color1 ;
+    max-width: 100%;
+    margin-top: 35px;
+   
+
+}
+
+#serviços1{
+    background-color: $color1;
+    padding-top: $padding-top;
+}
+
+#titulos{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#col {
+
+    margin-top: 15px;
+   
+}
+
+
+
+#sobre{
+    border: 10px solid $color2;
+    margin-top: 15px;
+    padding-top: $padding-top;
+    padding-bottom: 15px;
+    background-color: $color1;
+    font-family: 'Times New Roman', Times, serif;
+
+    p
+    {
+        background-color: white;
+        font-size: large;
+    }
+
+    
+}
+
+#formulario{
+
+    border: $borda;
+    padding: 15px
+   
+}
+    
